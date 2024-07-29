@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 350px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f1f0f0; 
+    position: relative;
+    margin-top: 25px;
+}
+
+.container h2 {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-size: 24px;
+    text-align: center;
+    color: #2f3531;
+}
+
+.container input[type="text"],
+.container input[type="password"],
+.container input[type="email"] {
+    display: block;
+    width: 92%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.container select[id="usertype"] {
+    display: block;
+    width: 98%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0px;
+}
+
+.container .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 15px auto; 
+}
+
+.container .submit-button:hover {
+    background-color: #240cb1;
+}
+
+.container p{
+    font-size: 12px;
+    color: #333634;
+}
+
+/* Small buttons */
+
+.active-button {
+    background-color: rgb(1, 83, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 3px 10px;
+    width: 75px;
+}
+
+.active-button:hover {
+    background-color: #078025;
+}
+
+.inactive-button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px 10px;
+    width: 75px;
+}
+
+.inactive-button:hover {
+    background-color: red;
+}
+
+.update-button {
+    background-color: rgb(1, 83, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px 10px;
+    width: 75px;
+}
+
+.update-button:hover {
+    background-color: #078025;
+}
+
+.back-button {
+    background-color: rgb(34, 8, 151);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 3px 15px;
+    text-decoration: none;
+    margin-left: 280px;
+}
+
+.back-button:hover {
+    background-color: #078025;
+}

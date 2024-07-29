@@ -1,0 +1,67 @@
+.datatable {
+    width: 100%;
+    border-collapse: collapse;
+    /* margin-top: 10px; */
+    margin: auto;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+.datatable th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #e2e2e2;
+}
+
+.datatable td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(50, 51, 51);
+    background-color: #f8f8f8;
+}
+
+/* .datatable tr:nth-child(odd) {
+    background-color: #f8f8f8;
+} */
+
+/* .datatable tr:nth-child(even) {
+    background-color: #bdbaba;
+} */
+
+.datatable tr:hover {
+    background-color: #cff4fd;
+}
+
+/* pagination */
+
+.pagination {
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.pagination li {
+    float: left;
+    list-style-type:none;
+}
+
+.pagination a {
+    color: rgb(22, 22, 22);
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.pagination a.active {
+    background-color: #7c4007;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+

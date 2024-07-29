@@ -1,0 +1,4 @@
+Please place the framework folder into the htdocs or httpdocs directory. 
+Update the connection settings and SMTP details 
+(necessary for the password recovery process) according to your preferences. 
+Finally, import the MySQL database into your schema.

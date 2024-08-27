@@ -6,3 +6,9 @@ This repository contains a framework for a web-based Management System, develope
 <p align="middle">
   <img src="Screenshots/overview.jpeg"/>
  </p>
+
+## Setup Instructions
+
+1. Please place the framework folder into the htdocs or httpdocs directory. 
+2. Update the connection settings and SMTP details (necessary for the password recovery process) according to your preferences. 
+3. Finally, import the MySQL database into your schema.

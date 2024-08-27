@@ -4,5 +4,5 @@ This repository contains a framework for a web-based Management System, develope
 ## Screenshot
 
 <p align="middle">
-  <img src="..Screenshots/overview.jpeg"/>
+  <img src="Screenshots/overview.jpeg"/>
  </p>
